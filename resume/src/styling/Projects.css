@@ -1,0 +1,133 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.project-container{
+  max-width: 96%;
+  margin: 7vh auto;
+  /* background-color: blue; */
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 70%;
+    max-height: 80%;
+    margin: 0 auto;
+  }
+
+  .project-header{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.project-header-icon{
+    width: 6px;
+    height: 4vh;
+    background-color: brown;
+    margin: 0 5px 0 0;
+}
+
+.project-sub-header{
+    text-align: center;
+    color: brown;
+    margin: 5px 0;
+}  
+
+.project-sub-header2{
+  text-align: center;
+  color: black;
+  margin: 5px 0;
+  font-weight: bold;
+  font-size:13px;
+}
+  /* Slides */
+  .slide {
+    display: none;
+    text-align: center;
+    max-height: 80%;
+    
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Slide captions */
+  .text {
+    color: brown;
+    padding: 3px 0;
+  }
+  .text-span{
+    font-weight: bold;
+  }
+  
+  .slideshow-content{
+    background-color: #f8f8f8;
+    border: 0.2px solid rgb(216, 213, 213);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    padding: 2%
+  }
+  
+  /* Slide number text */
+  .numbertext {
+    position: absolute;
+    top: -25px;
+    left: 8px;
+    color: brown;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .visit-site{
+    padding: 0 7px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: brown;
+  }
+
+  .visit-site:hover{
+    border: 1px solid brown;
+    border-radius: 5px;
+    color: white;
+    background-color: brown;
+    font-size: 14px;
+  }
+
+  
+  /* Previous and next buttons */
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }

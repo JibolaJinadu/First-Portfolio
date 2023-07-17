@@ -11,7 +11,7 @@ const AnimatedText = () => {
   return (
     <div className="animated-text-container">
       <h2 className={`animated-text ${showText ? "show" : ""}`}>
-        <span className="initial-letter">A</span> Front-End Developer
+        <span className="initial-letter">A</span> Front-End Web Developer
       </h2>
     </div>
   );

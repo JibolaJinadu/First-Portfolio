@@ -2,16 +2,17 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 .about-container{
-    width: 96%;
+    max-width: 96%;
     margin: 0 auto;
 }
 
 .about-main{
     width: 100%;
-    height:90%;
+    height:70vh;
     display: flex;
     flex-direction: row;
     border: 0.2px solid rgb(216, 213, 213);
@@ -32,7 +33,7 @@ body{
 }
 
 .about-1:hover{
-    background-color: red;
+    background-color: rgb(223, 93, 93);
     border-radius: 7px;
 }
 
@@ -59,6 +60,15 @@ body{
 }
 .about-ul{
     margin: 0 0 10px;
+}
+
+.readmore-bttn{
+    color: black;
+    font-style: italic;
+    border: none;
+    background-color: rgb(223, 93, 93);
+    padding: 4px;
+    border-radius: 3px;
 }
 
 .about-2{

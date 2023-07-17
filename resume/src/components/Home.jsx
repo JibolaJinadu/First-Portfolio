@@ -5,6 +5,7 @@ import AnimatedText from "./AnimatedText";
 import myself from "../styling/Jibson.jpg"
 import { Link } from "react-router-dom";
 import About from "./About";
+import Projects from "./Projects";
 
 
 const Home = () => {
@@ -19,12 +20,15 @@ const Home = () => {
                 <p className="home-1-item passion">"My passion is crafting captivating websites that leave a lasting impression, with a focus on user-centric design, seamless functionality, and accessible experiences."</p>
             </div>
             <div className="home-2">
-                <img className="profile-picture" src={myself} style={{width:"160px", height:"160px"}} alt="mypix" />
+                <div className="profile-picture-wrapper">
+                   <img className="profile-picture" src={myself} style={{width:"160px", height:"160px"}} alt="mypix" />
+                </div>
                 <p ><Link to="/about" className="know-more-link">More about me</Link></p>
             </div>
         </div>
     </section>
     <About/>
+    <Projects/>
     </>
   );
 };
