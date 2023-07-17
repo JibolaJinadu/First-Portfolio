@@ -58,7 +58,7 @@ const Projects = () => {
     <div className="project-container">
       <div className="project-header">
         <div className="project-header-icon"></div>
-        <h2>My Works</h2>
+        <h2 className="underline-transition">My Works</h2>
       </div>
       <h3 className="project-sub-header">
         Here are some of things I've worked on

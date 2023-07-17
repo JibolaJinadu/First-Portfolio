@@ -7,7 +7,6 @@ body{
 .project-container{
   max-width: 96%;
   margin: 7vh auto;
-  /* background-color: blue; */
 }
 
 /* Slideshow container */
@@ -22,6 +21,25 @@ body{
     display: flex;
     align-items: center;
     padding-left: 5%;
+}
+
+.underline-transition {
+  position: relative;
+}
+
+.underline-transition::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000; /* Set your desired underline color */
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-transition:hover::before {
+  width: 100%;
 }
 .project-header-icon{
     width: 6px;
@@ -71,7 +89,8 @@ body{
   
   .slideshow-content{
     background-color: #f8f8f8;
-    border: 0.2px solid rgb(216, 213, 213);
+    border: 0.3px solid rgb(216, 213, 213);
+    border-radius: 4px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: start;
     padding: 2%

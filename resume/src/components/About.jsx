@@ -17,7 +17,7 @@ const resumeLink = "https://drive.google.com/file/d/15uszZPAzs9ribDe878QQuSFs19x
         <div className="about-1">
           <div className="about-header">
             <div className="about-header-icon"></div>
-            <h1>About</h1>
+            <h1 className="underline-transition">About Me</h1>
           </div>
           <div>
             <h3 className="about-headings">My Objectives</h3>
@@ -68,7 +68,7 @@ const resumeLink = "https://drive.google.com/file/d/15uszZPAzs9ribDe878QQuSFs19x
             <ul className="about-ul">
               <li className="about-2-li">
                 <span className="about-2-li-header">
-                  Academic Qualifications:
+                  Academic qualifications:
                 </span>
                 <ul>
                   <li>Stutern Graduate Accelerator </li>
@@ -78,23 +78,23 @@ const resumeLink = "https://drive.google.com/file/d/15uszZPAzs9ribDe878QQuSFs19x
                 </ul>
               </li>
               <li className="about-2-li">
-                <span className="about-2-li-header">Hobbies: </span>
+                <span className="about-2-li-header">Interests: </span>
                 <ul>
-                  <li>Continuous Learning</li>
-                  <li>Music</li>
-                  <li>Football</li>
+                  <li>Sports & Fitness</li>
+                  <li>Music & Comedy</li>
+                  <li>Technology & Continuous Learning</li>
                   <li>Networking & Community Involvement</li>
                 </ul>
               </li>
               <li className="about-2-li">
-                <span className="about-2-li-header">Telephone Number:</span>
+                <span className="about-2-li-header">Telephone number:</span>
                 <ul>
                   <li>(+234)8180302629</li>
                   <li>(+234)9022204232</li>
                 </ul>
               </li>
               <li className="about-2-li">
-                <span className="about-2-li-header">Email-Address:</span>
+                <span className="about-2-li-header">Email-address:</span>
                 <ul>Jibolajinadus8@gmail.com</ul>
               </li>
             </ul>

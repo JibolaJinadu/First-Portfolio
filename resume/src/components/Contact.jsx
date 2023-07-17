@@ -50,7 +50,6 @@ const Contact = () => {
       <div>
         Email-address: Jibolajinadus8@gmail.com
         Phone Number: (+234) 8180302629, 9022204232.
-        
         Location: Lagos, Nigeria.
       </div>
     </section>

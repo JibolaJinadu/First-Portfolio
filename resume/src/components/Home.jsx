@@ -6,6 +6,7 @@ import myself from "../styling/Jibson.jpg"
 import { Link } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
     </section>
     <About/>
     <Projects/>
+    <Skills/>
     </>
   );
 };
