@@ -1,4 +1,3 @@
-
 import React from "react";
 import "../styling/Home.css";
 import AnimatedText from "./AnimatedText";
@@ -7,6 +6,8 @@ import { Link } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Testimony from "./Testimony";
+import Contact from "./Contact";
 
 
 const Home = () => {
@@ -31,6 +32,8 @@ const Home = () => {
     <About/>
     <Projects/>
     <Skills/>
+    <Testimony/>
+    <Contact/>
     </>
   );
 };

@@ -1,0 +1,52 @@
+.testimony-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 96%;
+    margin: 7vh auto;
+    padding-top: 15px;
+    border-top: 1px solid rgb(216, 213, 213);
+  }
+
+  .testimony-card-top, .testimony-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .testimony-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 280px;
+    height: 220px;
+    margin: 0vh auto;
+    /* Add transitions */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect */
+  .testimony-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimony-content {
+    text-align: center;
+  }
+  
+  .testimony-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .testimony-content p {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .twitterhandle{
+    font-size: 11px;
+  }

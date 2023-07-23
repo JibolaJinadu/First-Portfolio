@@ -6,6 +6,7 @@ import Starwars from '../assets/Starwars.img.png';
 import Todo from '../assets/Todo.img.png';
 import Instagram from '../assets/Instagram.img.png';
 
+
 const Projects = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 

@@ -21,6 +21,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 5%;
+    cursor: pointer;
 }
 
 .underline-transition {
@@ -82,6 +83,7 @@ body{
   .text {
     color: brown;
     padding: 3px 0;
+    font-size: 14px;
   }
   .text-span{
     font-weight: bold;

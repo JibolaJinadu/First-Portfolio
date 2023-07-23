@@ -1,0 +1,182 @@
+input:-internal-autofill-selected {
+  background-color: transparent !important;
+}
+
+input:placeholder-shown,
+input:placeholder-shown:-webkit-autofill,
+input:placeholder-shown:-webkit-autofill:hover,
+input:placeholder-shown:-webkit-autofill:focus,
+textarea:placeholder-shown,
+textarea:placeholder-shown:-webkit-autofill,
+textarea:placeholder-shown:-webkit-autofill:hover,
+textarea:placeholder-shown:-webkit-autofill:focus {
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #333 !important;
+  transition: background-color 5000s ease-in-out 0s; /* Adjust the transition duration as needed */
+}
+
+/* For Firefox */
+input:-moz-autofill,
+textarea:-moz-autofill {
+  -moz-text-fill-color: #333 !important;
+  transition: background-color 5000s ease-in-out 0s; /* Adjust the transition duration as needed */
+}
+
+.contact-container{
+    max-width: 100%;
+    height: 90vh;
+    background-image: url('../assets/contact-img.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.contact-body{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me{
+    color: #f8f8f8;
+}
+.other-contact-info{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:flex-end;
+    color: #f8f8f8;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    max-height: 100%;
+    padding: auto;
+    border-left:7px groove brown;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 3px solid brown;
+    border-radius: 8px;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  input[type='text']:focus,
+  input[type='email']:focus,
+  textarea:focus {
+    border-color: black;
+    background-color: transparent;
+  }
+  
+  input[type='submit'] {
+    cursor: pointer;
+    background-color: #5d9cec;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  input[type='submit']:hover {
+    background-color: transparent;
+  }
+  
+  .error {
+    color: #f44336;
+    font-size: 12px;
+    margin-top: 1px;
+  }
+  
+  .toaster {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0s 0.3s;
+  }
+  
+  .toaster.show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+  }
+
+  .contact-bttn{
+    background-color: brown;
+    color: #f8f8f8;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+  }
+
+    .contact-bttn:hover{
+    background-color: rgb(149, 27, 27);
+    color: #f8f8f8;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+  }
+
+  ::placeholder{
+    font-size: 10px;
+  }
+
+.contact-href{
+    text-decoration: none;
+    color: #f8f8f8;
+}
